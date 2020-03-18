@@ -53,7 +53,7 @@ describe('Instances of Person', () => {
     expect(neo.stomach.length).to.equal(0)
   })
   it('get eat, poop and toString methods from their prototype', () => {
-    expect(neo.__proto__.eat).to.be.not.undefined;
+    expect(neo.__proto__ .eat).to.be.not.undefined;
     expect(neo.__proto__.poop).to.be.not.undefined;
     expect(neo.__proto__.toString).to.be.not.undefined;
   })
